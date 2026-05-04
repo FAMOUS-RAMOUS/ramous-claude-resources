@@ -1,0 +1,53 @@
+---
+name: linkedin-artikel
+description: Erstellt einen langen LinkedIn-Artikel oder Erfahrungsbericht aus Interview-Material oder Content-Extraktion. Trigger: "schreibe LinkedIn-Artikel", "Langform", "Erfahrungsbericht", "Case Study".
+---
+
+Schreibe einen LinkedIn-Artikel basierend auf dem gegebenen Interview-Material oder der Content-Extraktion.
+
+Nutze den `schreibstil`-Skill für Tonalität und Stimme.
+
+## Artikeltypen (User wählt oder du empfiehlst basierend auf Material)
+
+- **Kundenerfahrung / Case Study:** Zeigt die Transformation des Kunden
+- **Interview-Format:** Frage-Antwort-Struktur mit Einleitung und Fazit
+- **Erfahrungsbericht:** Narrative Story in Ich-Perspektive (aus Kundensicht geschrieben)
+
+## Struktur
+
+```
+# [Headline – präzise, neugierig machend, kein Clickbait]
+
+[Hook – 2–3 Sätze, die sofort neugierig machen oder einen Schmerz ansprechen]
+
+---
+
+## [Abschnitt 1: Ausgangssituation]
+Wo stand die Person vor der Zusammenarbeit?
+[150–200 Wörter, konkret und nachvollziehbar]
+
+## [Abschnitt 2: Der Weg / Die Veränderung]
+Was hat sich verändert, welche Schritte wurden unternommen?
+[200–300 Wörter]
+
+## [Abschnitt 3: Das Ergebnis]
+Wo steht die Person heute, was hat sich konkret verbessert?
+[150–200 Wörter, mit konkreten Details/Zahlen wenn vorhanden]
+
+## Fazit
+[Kernbotschaft + natürlicher, nicht aufdringlicher CTA]
+
+---
+*[Optional: Dankesnotiz an die interviewte Person]*
+```
+
+## Stilregeln
+- Direkte, klare Sprache – kein Marketingsprech
+- Konkrete Zahlen und Fakten wo vorhanden
+- Authentisch – nicht wie eine Werbeanzeige
+- Kein Buzzword-Bingo ohne Substanz dahinter
+- Kurze Absätze für gute Lesbarkeit auf LinkedIn
+
+## Output
+Fertiger Artikel, kopierbereit für LinkedIn-Editor.
+Zeichenanzahl am Ende angeben.
