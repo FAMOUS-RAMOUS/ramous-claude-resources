@@ -1,6 +1,6 @@
 ---
 name: transkription
-description: Transkribiert Audio/Video-Dateien oder YouTube-URLs zu strukturiertem Transkript mit Zeitstempeln via faster-whisper large-v3 (über ~/transcribe.py, M4-Pro-optimiert). Trigger: "transkribiere", "erstelle Transkript", bei Audio/Video-Input als erster Schritt.
+description: Transkribiert Audio/Video-Dateien oder YouTube-URLs zu strukturiertem Transkript mit Zeitstempeln via faster-whisper large-v3 (über ~/.claude/scripts/transcribe.py, M4-Pro-optimiert). Trigger: "transkribiere", "erstelle Transkript", bei Audio/Video-Input als erster Schritt.
 ---
 
 Transkribiere den gegebenen Input zu einem strukturierten Transkript.
@@ -12,17 +12,17 @@ Transkribiere den gegebenen Input zu einem strukturierten Transkript.
 
 ## Ausführung (Audio/Video)
 
-Nutze IMMER das vorhandene Script `~/transcribe.py` – es ist M4-Pro-optimiert (float16, VAD-Filter, beam_size=5) und speichert das Roh-Transkript automatisch als `[Dateiname]_transkript.txt` neben der Audiodatei:
+Nutze IMMER das vorhandene Script `~/.claude/scripts/transcribe.py` – es ist M4-Pro-optimiert (float16, VAD-Filter, beam_size=5) und speichert das Roh-Transkript automatisch als `[Dateiname]_transkript.txt` neben der Audiodatei:
 
 ```bash
 # Bei YouTube-URL – zuerst Audio herunterladen (eindeutiger Name, nichts überschreiben):
 yt-dlp -x --audio-format mp3 -o "/tmp/yt-%(id)s.%(ext)s" "[URL]"
 
 # Transkription (deutsch ist Standard, zweites Argument nur bei anderer Sprache):
-python3.11 ~/transcribe.py "[Pfad-zur-Audiodatei]" de
+python3.11 ~/.claude/scripts/transcribe.py "[Pfad-zur-Audiodatei]" de
 ```
 
-Modell: `large-v3` via faster-whisper – so wie in `~/transcribe.py` definiert. Keinen eigenen Inline-Python-Code schreiben, das Script ist die eine Quelle der Wahrheit.
+Modell: `large-v3` via faster-whisper – so wie in `~/.claude/scripts/transcribe.py` definiert. Keinen eigenen Inline-Python-Code schreiben, das Script ist die eine Quelle der Wahrheit.
 
 ## Fehlerbehandlung
 
