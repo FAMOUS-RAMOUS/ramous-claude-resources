@@ -35,18 +35,17 @@ Wo steht die Person heute, was hat sich konkret verbessert?
 [150–200 Wörter, mit konkreten Details/Zahlen wenn vorhanden]
 
 ## Fazit
-[Kernbotschaft + natürlicher, nicht aufdringlicher CTA]
+[Kernbotschaft + natürlicher, nicht aufdringlicher CTA – bei Coaching-Bezug die MEF-Formel aus `schreibstil`: „Schreib mir 'MEF'"]
 
 ---
 *[Optional: Dankesnotiz an die interviewte Person]*
 ```
 
 ## Stilregeln
-- Direkte, klare Sprache – kein Marketingsprech
+Alle Stil- und Tonregeln kommen aus `schreibstil` (eine Quelle der Wahrheit – hier nicht duplizieren).
+Zusätzlich nur artikelspezifisch:
+- Kurze Absätze und Zwischenüberschriften für gute Lesbarkeit im LinkedIn-Editor
 - Konkrete Zahlen und Fakten wo vorhanden
-- Authentisch – nicht wie eine Werbeanzeige
-- Kein Buzzword-Bingo ohne Substanz dahinter
-- Kurze Absätze für gute Lesbarkeit auf LinkedIn
 
 ## Output
 Fertiger Artikel, kopierbereit für LinkedIn-Editor.

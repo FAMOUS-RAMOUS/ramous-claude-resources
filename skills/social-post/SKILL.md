@@ -5,14 +5,16 @@ description: Erstellt plattformspezifische Social-Media-Posts aus Content-Extrak
 
 Erstelle Social-Media-Posts für die angegebenen Plattformen basierend auf der gegebenen Content-Extraktion.
 
-Nutze immer den `schreibstil`-Skill für Tonalität und Stimme.
+Nutze immer den `schreibstil`-Skill für Tonalität und Stimme – dort sind auch Emoji-Regeln, Signaturen und die MEF-CTA-Formel („Schreib mir 'MEF'") definiert. Bei Coaching-Bezug den CTA einbauen.
+
+Für lange LinkedIn-Artikel nicht diesen Skill nutzen, sondern `linkedin-artikel`.
 
 ## Plattform-Spezifikationen
 
 ### Instagram
 - **Format:** Emotion zuerst → Story → CTA
 - **Länge:** 150–300 Wörter
-- **Emojis:** Sparsam, 2–4 pro Post, passend zum Inhalt
+- **Emojis:** Sparsam, 1–4 pro Post (Instagram-Ausnahme laut `schreibstil`), passend zum Inhalt
 - **Hashtags:** 15–20, am Ende als Block
 - **Hook:** Erste Zeile muss zum Weiterlesen zwingen (Cliffhanger, Frage, starke Aussage)
 

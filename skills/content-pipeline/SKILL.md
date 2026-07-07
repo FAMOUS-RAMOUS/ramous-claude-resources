@@ -76,8 +76,8 @@ Lade `/schreibstil` als Basis für Tonalität.
 - Input: Content-Analyse + Zielplattform
 - Beide Plattformen können parallel erstellt werden
 
-**Für Video-Clips:** *(noch nicht verfügbar)*
-→ Markiere die clip-würdigen Momente aus der Content-Analyse mit Zeitstempeln für manuelle Weiterverarbeitung.
+**Für Video-Clips:**
+→ Markiere die clip-würdigen Momente aus der Content-Analyse mit Zeitstempeln für manuelle Weiterverarbeitung. (Automatischer Schnitt folgt, sobald Remotion/Node.js eingerichtet ist – siehe offene Baustelle im Memory.)
 
 ---
 
@@ -116,18 +116,25 @@ Frage: **„Hier ist dein Content. Was möchtest du anpassen?"**
 
 Biete an, die Outputs zu speichern:
 `~/Claude/outputs/content/[YYYY-MM-DD]-[Thema].md`
+Existiert die Datei bereits (z. B. weil die Interview-Pipeline am selben Tag dasselbe Thema hatte), NIE überschreiben – stattdessen `-2`, `-3` … anhängen.
 
 ---
 
-## Geteilte Skills (wiederverwendet aus System 1)
+### Schritt 5: Bilder (optional)
+
+Frage: **„Soll ich passende Bilder zu den Posts generieren?"**
+Wenn ja → Lade den `/bild-generator` Skill.
+- Input: die fertigen Post-Texte + gewählte Plattformen (bestimmt die Formate)
+- Voraussetzung: `GOOGLE_API_KEY` gesetzt und Billing aktiv – wenn nicht, kurz erklären was fehlt und diesen Schritt überspringen
+
+---
+
+## Genutzte Skills
 | Skill | Funktion |
 |---|---|
 | `transkription` | Audio/Video → Text |
-| `social-post` | Text → Plattform-Posts |
+| `content-analyse` | Eigener Content → Insights + Hooks |
 | `schreibstil` | Tonalität / Stimme |
-
-## Neue Skills dieses Systems
-| Skill | Funktion |
-|---|---|
-| `content-analyse` | Eigenen Content → Insights + Hooks |
+| `social-post` | Text → Plattform-Posts |
 | `slides` | Insights → Karussell-Slides |
+| `bild-generator` | Post → Bild (optional, Schritt 5) |

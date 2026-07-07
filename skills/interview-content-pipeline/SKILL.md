@@ -106,14 +106,25 @@ Präsentiere alle Outputs übersichtlich formatiert:
 
 Biete an, die Outputs als Markdown-Datei zu speichern:
 `~/Claude/outputs/content/[YYYY-MM-DD]-[Thema].md`
+Existiert die Datei bereits (z. B. weil die Content-Pipeline am selben Tag dasselbe Thema hatte), NIE überschreiben – stattdessen `-2`, `-3` … anhängen.
 
 ---
 
-## Skill-Übersicht dieses Systems
+### Schritt 5: Bilder (optional)
+
+Frage: **„Soll ich passende Bilder zu den Posts generieren?"**
+Wenn ja → Lade den `/bild-generator` Skill.
+- Input: die fertigen Post-Texte + gewählte Plattformen (bestimmt die Formate)
+- Voraussetzung: `GOOGLE_API_KEY` gesetzt und Billing aktiv – wenn nicht, kurz erklären was fehlt und diesen Schritt überspringen
+
+---
+
+## Genutzte Skills
 | Skill | Aufgabe |
 |---|---|
 | `transkription` | Audio/Video → Text |
 | `content-extraktion` | Text → Struktur + Zitate |
+| `schreibstil` | Tonalität / Stimme |
 | `social-post` | Struktur → Plattform-Posts |
 | `linkedin-artikel` | Struktur → Langform-Artikel |
-| `schreibstil` | Tonalität / Stimme (shared) |
+| `bild-generator` | Post → Bild (optional, Schritt 5) |

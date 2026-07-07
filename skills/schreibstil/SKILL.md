@@ -47,7 +47,7 @@ Sie fühlen, dass mehr in ihnen steckt – warten aber auf "irgendwann".
 
 ## Emojis
 
-Sparsam. 1–3 pro Post. Nur als Marker oder Wegweiser:
+Sparsam. 1–3 pro Post (einzige Ausnahme: Instagram, dort bis zu 4). Nur als Marker oder Wegweiser:
 - 👉 für Handlungsaufforderung
 - 📩 für Kontaktaufforderung
 Keine Emoji-Ketten, keine Dekoration.
@@ -69,16 +69,6 @@ Posts enden oft mit einer dieser Formen:
 - Keine Auflistungen mit Bulletpoints wenn eine Story besser funktioniert
 - Keine langen Einleitungen – sofort ins Thema
 
-## Zweites Beispiel-Post (gut – Original)
-
-> Hallo LinkedIn 👋
-> Das hier ist mein erster Beitrag – und ganz ehrlich: Ich hab's lange vor mir hergeschoben.
-> Ich dachte: „LinkedIn ist zu ernst für meine Story." „Wen interessiert das überhaupt?" „Bin ich hier überhaupt richtig?"
-> Aber heute sag ich: Doch. Ich bin genau richtig hier.
-> [...] Muskeln. Energie. Fokus. – Das ist mein M.E.F-Konzept.
-> Schreib mir einfach „MEF" – dann sprechen wir mal ganz locker.
-> Let's go. Dein Rachid
-
 ## Erstes Beispiel-Post (gut – Original)
 
 > Warum habe ich mit dem Training angefangen?
@@ -93,6 +83,16 @@ Posts enden oft mit einer dieser Formen:
 > 👉 Und genau deshalb helfe ich heute anderen – Unternehmern & Selbstständigen.
 > 📩 Wenn du fühlst, dass in dir mehr steckt – und du nicht länger auf "irgendwann" warten willst: Schreib mir "MEF" hier auf LinkedIn.
 > Kein Bullshit. Kein Fitness-Guru-Geschwafel. Nur echte Resultate. Für echte Menschen.
+
+## Zweites Beispiel-Post (gut – Original)
+
+> Hallo LinkedIn 👋
+> Das hier ist mein erster Beitrag – und ganz ehrlich: Ich hab's lange vor mir hergeschoben.
+> Ich dachte: „LinkedIn ist zu ernst für meine Story." „Wen interessiert das überhaupt?" „Bin ich hier überhaupt richtig?"
+> Aber heute sag ich: Doch. Ich bin genau richtig hier.
+> [...] Muskeln. Energie. Fokus. – Das ist mein M.E.F-Konzept.
+> Schreib mir einfach „MEF" – dann sprechen wir mal ganz locker.
+> Let's go. Dein Rachid
 
 ## Stil-Kurzformel
 

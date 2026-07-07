@@ -1,6 +1,6 @@
 ---
 name: transkription
-description: Transkribiert Audio/Video-Dateien oder YouTube-URLs zu strukturiertem Transkript mit Zeitstempeln via faster-whisper large-v3. Trigger: "transkribiere", "erstelle Transkript", bei Audio/Video-Input als erster Schritt.
+description: Transkribiert Audio/Video-Dateien oder YouTube-URLs zu strukturiertem Transkript mit Zeitstempeln via faster-whisper large-v3 (über ~/transcribe.py, M4-Pro-optimiert). Trigger: "transkribiere", "erstelle Transkript", bei Audio/Video-Input als erster Schritt.
 ---
 
 Transkribiere den gegebenen Input zu einem strukturierten Transkript.
@@ -12,19 +12,23 @@ Transkribiere den gegebenen Input zu einem strukturierten Transkript.
 
 ## Ausführung (Audio/Video)
 
-```bash
-# Bei YouTube-URL – zuerst Audio herunterladen:
-yt-dlp -x --audio-format mp3 -o "/tmp/interview.%(ext)s" "[URL]"
+Nutze IMMER das vorhandene Script `~/transcribe.py` – es ist M4-Pro-optimiert (float16, VAD-Filter, beam_size=5) und speichert das Roh-Transkript automatisch als `[Dateiname]_transkript.txt` neben der Audiodatei:
 
-# Transkription mit faster-whisper:
-python3 -c "
-from faster_whisper import WhisperModel
-model = WhisperModel('faster-community/whisper-large-v3', device='auto')
-segments, info = model.transcribe('/tmp/interview.mp3', language='de')
-for segment in segments:
-    print(f'[{segment.start:.1f}s - {segment.end:.1f}s] {segment.text.strip()}')
-"
+```bash
+# Bei YouTube-URL – zuerst Audio herunterladen (eindeutiger Name, nichts überschreiben):
+yt-dlp -x --audio-format mp3 -o "/tmp/yt-%(id)s.%(ext)s" "[URL]"
+
+# Transkription (deutsch ist Standard, zweites Argument nur bei anderer Sprache):
+python3.11 ~/transcribe.py "[Pfad-zur-Audiodatei]" de
 ```
+
+Modell: `large-v3` via faster-whisper – so wie in `~/transcribe.py` definiert. Keinen eigenen Inline-Python-Code schreiben, das Script ist die eine Quelle der Wahrheit.
+
+## Fehlerbehandlung
+
+- **Datei nicht gefunden:** Pfad vor dem Start mit `ls` prüfen; bei Leerzeichen im Namen Anführungszeichen verwenden.
+- **yt-dlp schlägt fehl:** Fehlermeldung zeigen und prüfen, ob das Video verfügbar/regional gesperrt ist. Nicht stillschweigend weitermachen.
+- **Erster Lauf:** Das Modell lädt einmalig ~3 GB herunter – den User vorwarnen, dass es beim ersten Mal dauert.
 
 ## Output-Format
 
@@ -43,5 +47,5 @@ for segment in segments:
 [Transkript ohne Zeitstempel, sauber formatiert]
 ```
 
-Sprecherwechsel mit [SPRECHER A] / [SPRECHER B] markieren, wenn erkennbar.
+Sprecherwechsel: faster-whisper erkennt Sprecher NICHT automatisch. Wenn der Inhalt klar ein Dialog ist (Interview), markiere Wechsel nach bestem Verständnis aus dem Kontext mit [SPRECHER A] / [SPRECHER B] und weise darauf hin, dass die Zuordnung inhaltlich abgeleitet ist.
 Füllwörter ("ähm", "äh") im Volltext entfernen, im Inhalt-Block belassen.

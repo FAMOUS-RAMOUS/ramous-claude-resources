@@ -11,7 +11,7 @@ Nutze den `schreibstil`-Skill für Tonalität und Stimme.
 
 | Slide | Funktion | Inhalt |
 |---|---|---|
-| 1 | Hook-Slide | Titel der stärkste Satz – muss zum Weiterklicken zwingen |
+| 1 | Hook-Slide | Titel = der stärkste Satz – muss zum Weiterklicken zwingen |
 | 2–6 | Content-Slides | Je ein Kerninsight, klar und eigenständig |
 | Letzter | CTA-Slide | Zusammenfassung + Handlungsaufforderung |
 
@@ -31,8 +31,8 @@ Visual-Hinweis: [optional: was könnte auf diesem Slide visuell funktionieren?]
 ### LinkedIn-Karussell
 - 5–8 Slides ideal
 - Ton: professionell, substanziell, lehrreich
-- Jeder Slide muss allein funktionieren (wird geteilt/gescreenshottot)
-- Letzter Slide: CTA mit „Schreib mir MEF" oder Follow-Aufforderung
+- Jeder Slide muss allein funktionieren (wird geteilt/gescreenshottet)
+- Letzter Slide: CTA mit „Schreib mir 'MEF'" oder Follow-Aufforderung
 
 ### Instagram-Karussell
 - 5–10 Slides möglich
@@ -40,11 +40,11 @@ Visual-Hinweis: [optional: was könnte auf diesem Slide visuell funktionieren?]
 - Hook-Slide muss extrem stark sein (entscheidet ob weitergewischt wird)
 - Mehr Weißraum, kürzere Texte pro Slide
 
-## Stil-Regeln (Rachids Stimme)
-- Kurze, direkte Sätze – kein Fließtext auf Slides
+## Stil-Regeln
+Alle Stil- und Tonregeln kommen aus `schreibstil` (eine Quelle der Wahrheit – hier nicht duplizieren).
+Zusätzlich nur slide-spezifisch:
+- Kein Fließtext auf Slides – jede Zeile muss auf einen Blick erfassbar sein
 - Eine Idee pro Slide – nie zwei Gedanken mischen
-- Kontrast-Dramatik erlaubt: „Nicht X. Sondern Y."
-- Zahlen und konkrete Ergebnisse wo vorhanden
 
 ## Output
 Alle Slides nummeriert und klar strukturiert, kopierbereit für Design-Tools.
