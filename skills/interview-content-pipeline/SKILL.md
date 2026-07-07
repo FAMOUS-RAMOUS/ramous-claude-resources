@@ -105,7 +105,7 @@ Präsentiere alle Outputs übersichtlich formatiert:
 ```
 
 Biete an, die Outputs als Markdown-Datei zu speichern:
-`~/Documents/Content/[YYYY-MM-DD]-[Thema].md`
+`~/Claude/outputs/content/[YYYY-MM-DD]-[Thema].md`
 
 ---
 

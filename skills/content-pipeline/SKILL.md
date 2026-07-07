@@ -115,7 +115,7 @@ Frage: **„Hier ist dein Content. Was möchtest du anpassen?"**
 ```
 
 Biete an, die Outputs zu speichern:
-`~/Documents/Content/[YYYY-MM-DD]-[Thema].md`
+`~/Claude/outputs/content/[YYYY-MM-DD]-[Thema].md`
 
 ---
 
