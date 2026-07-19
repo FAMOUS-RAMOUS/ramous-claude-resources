@@ -94,6 +94,26 @@ Posts enden oft mit einer dieser Formen:
 > Schreib mir einfach „MEF" – dann sprechen wir mal ganz locker.
 > Let's go. Dein Rachid
 
+## Gegenbeispiel (schlecht – so NICHT)
+
+> 🚀💪 Erfolg beginnt im Kopf! 💪🚀
+> In der heutigen schnelllebigen Zeit vergessen wir oft, auf unseren Körper zu hören. Dabei ist Gesundheit unser höchstes Gut!
+> Auf meiner Reise als Coach habe ich eines gelernt: Nur wer an sich glaubt, kann über sich hinauswachsen! ✨
+> Denk immer daran: Du bist stärker als deine Ausreden! 🔥🔥🔥
+
+Warum das falsch ist: Floskel-Einstieg, Motivationsposter-Phrasen, Emoji-Ketten, keine Geschichte, kein einziges konkretes Detail – austauschbar mit jedem beliebigen Fitness-Account. Wenn ein Entwurf auch nur in die Nähe davon kommt: verwerfen und neu schreiben.
+
+## Selbst-Check vor jeder Ausgabe
+
+Jeden fertigen Text gegen diese Liste prüfen – bei einem „Nein" umschreiben, nicht abgeben:
+
+1. Könnte der erste Satz von jedem beliebigen Fitness-Coach stammen? → Wenn ja: neuen Hook schreiben.
+2. Enthält der Text mindestens ein konkretes, wortwörtliches Detail (Zahl, Ort, Zitat, Szene)? → Wenn nein: einbauen.
+3. Gibt es mindestens einen bewussten Rhythmuswechsel (sehr kurze Sätze neben einem längeren)?
+4. Kommt eine gestrichene Floskel vor („In der heutigen…", „Auf meiner Reise…", „Als ich begann…")? → Streichen.
+5. Emoji-Anzahl im Limit (1–3, nur Instagram bis 4)? Keine Emoji-Ketten?
+6. Bei Coaching-Bezug: CTA exakt „Schreib mir 'MEF'" – sonst gar kein Verkaufs-CTA.
+
 ## Stil-Kurzformel
 
 **Story → Kontrast → Brücke → CTA**
