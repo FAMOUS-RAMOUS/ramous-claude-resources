@@ -47,6 +47,8 @@ Analysiere den gegebenen Text und extrahiere alles Relevante für die Content-Er
 - Stärkstes Format: [Social Post / LinkedIn-Artikel / beides]
 ```
 
-## Wichtige Regel
+## Wichtige Regeln
 Bleibe so nah wie möglich am Originaltext. Keine Erfindungen, keine Übertreibungen.
 Wenn etwas unklar ist, weise darauf hin anstatt zu spekulieren.
+
+**Zitat-Treue (vor der Ausgabe prüfen):** Jedes Zitat unter Punkt 3 muss wortwörtlich so im Originaltext stehen – nicht geglättet, nicht zusammengefasst, nicht „schöner" formuliert. Auslassungen mit […] markieren. Vor der Ausgabe jedes Zitat einmal gegen den Originaltext abgleichen; findest du es dort nicht wörtlich, fliegt es raus oder wird als Paraphrase gekennzeichnet.
