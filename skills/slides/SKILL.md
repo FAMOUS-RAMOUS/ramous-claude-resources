@@ -46,6 +46,14 @@ Zusätzlich nur slide-spezifisch:
 - Kein Fließtext auf Slides – jede Zeile muss auf einen Blick erfassbar sein
 - Eine Idee pro Slide – nie zwei Gedanken mischen
 
+## Selbst-Check vor der Ausgabe
+Jeden Slide einzeln prüfen – bei einem „Nein" umschreiben statt abgeben:
+1. Überschrift maximal 8 Wörter? Wörter zählen, nicht schätzen.
+2. Funktioniert der Slide allein, ohne die anderen (Screenshot-Test)?
+3. Genau eine Idee pro Slide – kein zweiter Gedanke hineingerutscht?
+4. Slide-Anzahl im Plattform-Rahmen (LinkedIn 5–8, Instagram 5–10)?
+5. Würde Slide 1 dich beim Scrollen stoppen? Wenn die Hook-Slide der schwächste Slide ist: tauschen oder neu schreiben.
+
 ## Output
 Alle Slides nummeriert und klar strukturiert, kopierbereit für Design-Tools.
 Am Ende: Vorschlag für einen begleitenden Post-Text (kurz, 3–5 Sätze).
