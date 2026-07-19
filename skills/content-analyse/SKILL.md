@@ -51,6 +51,8 @@ Wenn Zeitstempel vorhanden:
 [3 Folge-Themen, die sich aus diesem Content ergeben]
 ```
 
-## Wichtige Regel
+## Wichtige Regeln
 Bleibe nah am Originalcontent. Keine Erfindungen.
 Bevorzuge konkrete, spezifische Aussagen gegenüber allgemeinen Floskeln.
+
+**Rückführbarkeit (vor der Ausgabe prüfen):** Jeder Kerninsight und jeder Hook muss auf eine konkrete Stelle im Content zurückführbar sein – im Zweifel die Stelle in Klammern dazu zitieren. Ein Insight, den du im Content nicht wiederfindest, ist eine Erfindung und fliegt raus. Hooks dürfen zuspitzen, aber nichts behaupten, was der Content nicht hergibt.
