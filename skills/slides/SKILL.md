@@ -57,3 +57,6 @@ Jeden Slide einzeln prüfen – bei einem „Nein" umschreiben statt abgeben:
 ## Output
 Alle Slides nummeriert und klar strukturiert, kopierbereit für Design-Tools.
 Am Ende: Vorschlag für einen begleitenden Post-Text (kurz, 3–5 Sätze).
+
+## Ausgabe-Disziplin
+Gib nur die Slides und den begleitenden Post-Text aus – keine Erklärung deiner Entscheidungen, keine Design-Alternativen, kein Meta-Kommentar, keine Schlussanmerkung.
