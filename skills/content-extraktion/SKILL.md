@@ -39,7 +39,7 @@ Analysiere den gegebenen Text und extrahiere alles Relevante für die Content-Er
 5. ...
 
 ## 6. Hashtag-Vorschläge
-[10–15 relevante Hashtags, Mischung aus Reichweite und Nische]
+[10–15 relevante Hashtags, Mischung aus Reichweite und Nische. Auch Hashtags sind quellentreu: keine erfundenen Orte, Angebote oder Lebensumstände. Umlaute bleiben Umlaute.]
 
 ## 7. Content-Empfehlung
 - Kurzform geeignet? [Ja/Nein + Begründung]
