@@ -54,8 +54,8 @@ Gesamtlänge 600–1.000 Wörter. Unter 500 Wörtern ist es kein Artikel, sonder
 1. Alle wörtlichen Zitate gegen das Quellmaterial abgeglichen (nichts geglättet oder erfunden)?
 2. Zahlen und Fakten stammen aus dem Material – nichts dazuerfunden?
 3. Selbst-Check aus `schreibstil` bestanden (Hook, Floskeln, CTA-Regel)?
-4. Gesamtlänge im Rahmen (600–1.000 Wörter)?
+4. Gesamtlänge im Rahmen (600–1.000 Wörter, mit `wc -w` geprüft)?
 
 ## Output
-Fertiger Artikel, kopierbereit für LinkedIn-Editor.
-Zeichenanzahl am Ende angeben – mit `wc -m` gezählt, nicht geschätzt.
+Fertiger Artikel, kopierbereit für LinkedIn-Editor, mit Wortzahl am Ende.
+Gib nur den Artikel und die Wortzahl aus – keine Erklärung deiner Entscheidungen, keine unaufgeforderten Varianten.
