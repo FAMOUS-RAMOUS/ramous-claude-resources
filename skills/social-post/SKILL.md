@@ -67,3 +67,6 @@ Jeden Post einzeln prüfen – bei einem „Nein" umschreiben statt abgeben:
 3. Hook-Test: Funktioniert die erste Zeile allein, ohne den Rest? Würde sie beim Scrollen stoppen?
 4. Selbst-Check aus `schreibstil` bestanden (Floskeln, Emojis, MEF-CTA-Regel)?
 5. Ist jeder Post eigenständig für seine Plattform geschrieben – nicht derselbe Text 4× minimal variiert? Instagram erzählt emotionaler, LinkedIn substanzieller, X verdichtet auf eine Aussage.
+
+## Ausgabe-Disziplin
+Gib nur die Posts im Output-Format aus – keine Erklärung deiner Stilentscheidungen, keine Schlussanmerkungen, keine unbestellten Zusatzformate oder Alternativen.
