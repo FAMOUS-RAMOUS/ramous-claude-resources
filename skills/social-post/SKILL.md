@@ -62,8 +62,8 @@ Jeden Post klar abgetrennt mit Plattform-Label und bereit zum Kopieren:
 
 Jeden Post einzeln prüfen – bei einem „Nein" umschreiben statt abgeben:
 
-1. Wortzahl/Zeichenzahl innerhalb der Plattform-Spezifikation? Bei X die 280 Zeichen tatsächlich zählen, nicht schätzen.
-2. Hashtag-Anzahl korrekt (Instagram 15–20, Facebook 3–5, LinkedIn 3–5, X keine Pflicht)?
+1. Bei X die 280 Zeichen real zählen (`wc -m`) – das ist ein hartes Limit. Die Wortspannen der anderen Plattformen sind Richtwerte: grob prüfen genügt.
+2. Hashtag-Anzahl korrekt (Instagram 15–20, Facebook 3–5, LinkedIn 3–5, X keine Pflicht)? Hashtags erfinden keine Fakten – keine Orte, Angebote oder Lebensumstände, die nicht im Material stehen. Umlaute bleiben auch in Hashtags Umlaute.
 3. Hook-Test: Funktioniert die erste Zeile allein, ohne den Rest? Würde sie beim Scrollen stoppen?
 4. Selbst-Check aus `schreibstil` bestanden (Floskeln, Emojis, MEF-CTA-Regel)?
 5. Ist jeder Post eigenständig für seine Plattform geschrieben – nicht derselbe Text 4× minimal variiert? Instagram erzählt emotionaler, LinkedIn substanzieller, X verdichtet auf eine Aussage.
