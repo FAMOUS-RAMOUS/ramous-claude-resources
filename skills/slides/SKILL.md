@@ -48,7 +48,7 @@ Zusätzlich nur slide-spezifisch:
 
 ## Selbst-Check vor der Ausgabe
 Jeden Slide einzeln prüfen – bei einem „Nein" umschreiben statt abgeben:
-1. Überschrift maximal 8 Wörter? Wörter zählen, nicht schätzen.
+1. Überschrift maximal 8 Wörter?
 2. Funktioniert der Slide allein, ohne die anderen (Screenshot-Test)?
 3. Genau eine Idee pro Slide – kein zweiter Gedanke hineingerutscht?
 4. Slide-Anzahl im Plattform-Rahmen (LinkedIn 5–8, Instagram 5–10)?
