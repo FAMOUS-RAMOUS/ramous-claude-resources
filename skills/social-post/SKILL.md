@@ -35,7 +35,7 @@ Für lange LinkedIn-Artikel nicht diesen Skill nutzen, sondern `linkedin-artikel
 ### X (Twitter)
 - **Format:** Kernaussage in 1–2 Sätzen
 - **Länge:** max. 280 Zeichen
-- **Optional:** Thread-Version mit 3–5 Tweets
+- Thread-Version (3–5 Tweets) nur, wenn ausdrücklich angefragt
 
 ## Output-Format
 Jeden Post klar abgetrennt mit Plattform-Label und bereit zum Kopieren:
