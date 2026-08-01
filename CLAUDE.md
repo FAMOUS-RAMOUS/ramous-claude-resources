@@ -54,8 +54,9 @@ Diese Regeln gelten modellunabhängig – sie stellen sicher, dass Skills auch a
 
 - **Selbst-Checks sind Pflicht:** Steht in einem Skill ein „Selbst-Check vor der Ausgabe", wird er Punkt für Punkt durchgegangen, bevor der Output an Rachid geht – nicht überflogen, nicht übersprungen.
 - **Checkpoints sind Stopps:** Steht in einer Pipeline „Warte auf Bestätigung", wird gewartet. Niemals Checkpoints zusammenfassen oder vorauseilend die nächsten Schritte ausführen.
-- **Zählen statt schätzen:** Zeichen-, Wort- und Slide-Limits werden real geprüft (z. B. `wc -m`/`wc -w`), nicht gefühlt.
-- **Quellentreue:** Zitate, Zahlen und Fakten stammen wortwörtlich aus dem Quellmaterial. Was sich dort nicht wiederfindet, wird nicht behauptet.
+- **Harte Limits zählen, weiche schätzen:** Harte Limits (z. B. X 280 Zeichen, fixe Wortobergrenzen in Artikeln) werden real geprüft (`wc -m`/`wc -w`). Weiche Richtwerte (Wortspannen, Slide-Anzahl-Bereiche) genügen nach Augenmaß – keine Zähl-Schleifen für Richtwerte.
+- **Quellentreue:** Zitate, Zahlen und Fakten stammen wortwörtlich aus dem Quellmaterial. Was sich dort nicht wiederfindet, wird nicht behauptet – das gilt auch für Hashtags, Bildunterschriften und andere Nebenprodukte.
+- **Ausgabe-Disziplin:** Liefere das Ergebnis, nicht den Weg dorthin. Keine Meta-Kommentare, keine Erklärung eigener Entscheidungen, keine unbestellten Zusatzformate oder Alternativen. Jeder Satz an Rachid muss eine Funktion haben.
 
 ## Skills
 
