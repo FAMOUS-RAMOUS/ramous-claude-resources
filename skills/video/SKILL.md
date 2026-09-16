@@ -71,6 +71,35 @@ z. B. `statement-koerper-folgt-9x16.mp4`. Niemals bestehende Dateien
 **Dauer-Faustregel:** rund 0,4 Sekunden pro Wort, mindestens 4, höchstens 10.
 Der Text muss stehen bleiben, nachdem das letzte Wort eingeflogen ist.
 
+## Composition `Zitatbild` – Standbild statt Video
+
+Für Foto-Posts mit Textzeile (Case-Story-Bilder, Zitat-Kacheln). Rendert ein
+JPG/PNG, kein Video. Gleiche Marken-Elemente wie `Statement`: Goldbalken,
+Gold-Highlight, Logo, Claim.
+
+```bash
+cd ~/Remotion && npx remotion still Zitatbild ~/Claude/outputs/content/images/<name>.jpg \
+  --props='{"text":"...","kicker":"Arnold, 49 · Kfz-Meister","highlight":["Heute:","das","hier."],"bild":"arnold-4x5.jpg","format":"4:5","position":"unten","handle":"@therealfamousramous"}'
+```
+
+| Prop | Typ | Standard | Bedeutung |
+|---|---|---|---|
+| `text` | string | – | **Pflicht.** Die Bildzeile |
+| `bild` | string | – | **Pflicht.** Dateiname in `~/Remotion/public/` |
+| `kicker` | string | – | Zeile über dem Text, z. B. Name und Beruf |
+| `highlight` | string[] | `[]` | Wörter in Gold |
+| `format` | `1:1` \| `4:5` \| `9:16` \| `16:9` | `4:5` | Seitenverhältnis |
+| `position` | `oben` \| `unten` | `oben` | Wo der Textblock sitzt |
+| `handle` | string | – | Unten links, z. B. `@therealfamousramous` |
+| `claim` | string | `EHRLICH. GESUND. STARK.` | Unten rechts. `""` = aus |
+| `logo` | boolean | `true` | Logo unten rechts |
+
+**Regel: Gesichter bleiben frei.** Vor dem Rendern prüfen, wo die Personen im
+Foto stehen, und `position` entsprechend wählen. Danach das Ergebnis ansehen
+und bei Überdeckung die Gegenseite nehmen.
+
+Formate: `4:5` für Instagram und Facebook, `1:1` für LinkedIn.
+
 ### Eigenes Hintergrundbild
 
 Bild zuerst nach `~/Remotion/public/` kopieren, dann nur den Dateinamen

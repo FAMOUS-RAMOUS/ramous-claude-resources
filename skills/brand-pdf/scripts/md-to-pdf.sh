@@ -36,6 +36,7 @@ LOGO="$SKILL_DIR/Logo/Famous_Ramous_Logo_gold_trans.png"
 OUTPUT="${INPUT%.md}.pdf"
 
 pandoc "$INPUT" \
+  -f markdown-smart \
   -o "$OUTPUT" \
   --pdf-engine=typst \
   --pdf-engine-opt="--root=/" \
