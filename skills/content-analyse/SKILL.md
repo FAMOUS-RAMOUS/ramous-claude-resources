@@ -1,7 +1,15 @@
 ---
 name: content-analyse
-description: "Analysiert eigene Inhalte für Content oder erschließt bereitgestellte PDFs, Bücher und Fachmaterial zum Lernen, Anwenden und verständlichen Weitergeben. Bei Essenz, Lernzusammenfassung, Verständnisfragen oder Content-Analyse einsetzen."
+description: "Analysiert eigene Inhalte für Content oder erschließt bereitgestellte PDFs, Bücher und Fachmaterial zum Lernen, Anwenden und verständlichen Weitergeben. Bei „Lernen“, „/lernen“, Essenz, Lernzusammenfassung, Verständnisfragen oder Content-Analyse einsetzen."
 ---
+
+## Kurzaufruf „Lernen“
+
+„Lernen“ oder „/lernen“ zusammen mit einer bereitgestellten PDF, einem Buch oder eindeutig benanntem Material startet den vorhandenen [Lernablauf](references/Lernen-und-Weitergeben.md). Keine neue Auftragsvorlage verlangen. Die beiliegende Datei oder im Gespräch eindeutig gemeinte Quelle verwenden; fehlt die Quelle oder kommen mehrere gleich plausible Quellen infrage, nur diese Lücke klären. Ein bloßer Buchtitel ersetzt keinen Zugriff auf den Buchinhalt.
+
+Standard: kompakter Lernbrief mit Essenz, Erklärmodell, wichtigen Grenzen, Quellenstellen und einem gekennzeichneten Anwendungsbeispiel. Danach interaktiv jeweils eine Abruffrage stellen, Rachids Antwort abwarten, gezielt Rückmeldung geben und Verständnislücken bearbeiten. Lösungen erst nach seinem Versuch zeigen. Zum Abschluss Rachid den Kern für eine Person ohne Vorwissen in eigenen Worten erklären lassen und die Erklärung mit den nötigen Einschränkungen schärfen. Ein ausdrücklich gewünschtes vollständiges Lernpaket oder anderes Format hat Vorrang vor diesem interaktiven Standard.
+
+Bei einem ganzen Buch alle Kapitel schrittweise bearbeiten, geprüften Umfang und offene Kapitel festhalten; nicht nach einer Teilanalyse das Buch als abgeschlossen darstellen. Gewünschte Lernzeit, Vorwissen und Zielgruppe berücksichtigen, wenn genannt. Folien, Karteikarten oder Posts nur nach Bedarf beziehungsweise Auftrag aus denselben geprüften Inhalten ableiten.
 
 ## Zuerst den Zweck unterscheiden
 
