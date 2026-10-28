@@ -1,7 +1,13 @@
 ---
 name: content-analyse
-description: Analysiert eigene Inhalte (Transkript, Video, Text aus Wissensdatenbank) und identifiziert Hooks, Kerninsights, Clip-Momente und Content-Winkel für die Weiterverbreitung. Trigger: "analysiere meinen Content", "finde Hooks", "was steckt in diesem Video", nach Transkription eigener Aufnahmen.
+description: "Analysiert eigene Inhalte für Content oder erschließt bereitgestellte PDFs, Bücher und Fachmaterial zum Lernen, Anwenden und verständlichen Weitergeben. Bei Essenz, Lernzusammenfassung, Verständnisfragen oder Content-Analyse einsetzen."
 ---
+
+## Zuerst den Zweck unterscheiden
+
+Will Rachid die Essenz einer PDF, eines Buches oder anderen Fachmaterials verstehen, anwenden oder weitergeben, den [Lernablauf](references/Lernen-und-Weitergeben.md) vollständig anwenden. Dafür keine Social-Media-Hooks oder Posts erzwingen. Fremde Fachquellen bleiben Aussagen ihrer Autoren und werden nicht zu Rachids eigenen Erlebnissen.
+
+Bei eigenen Aufnahmen und ausdrücklich beauftragter Content-Verwertung den folgenden vorhandenen Ablauf verwenden. Sind Lernen und spätere Veröffentlichung gemeinsam beauftragt, zuerst den Lerninhalt quellentreu erarbeiten und daraus nur die angefragten Formate ableiten.
 
 Analysiere den gegebenen eigenen Content (Transkript, Text oder Aufnahme-Inhalt) und bereite ihn für die Multi-Format-Distribution vor.
 

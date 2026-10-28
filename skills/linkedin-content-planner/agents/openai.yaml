@@ -1,0 +1,7 @@
+interface:
+  display_name: "LinkedIn-Redaktionsplan"
+  short_description: "LinkedIn-Redaktionsplan für MEF vorbereiten und prüfen"
+  default_prompt: "Nutze $linkedin-content-planner für die angefragte MEF-Aufgabe und beachte den Freigabestatus."
+
+policy:
+  allow_implicit_invocation: true
