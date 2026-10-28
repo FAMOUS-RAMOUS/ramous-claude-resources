@@ -1,0 +1,29 @@
+[
+  {
+    "paket": "studio",
+    "änderungen": {
+      "vite": {
+        "vorher": "8.2.2",
+        "nachher": "8.2.4"
+      }
+    }
+  },
+  {
+    "paket": "browser-capture",
+    "änderungen": {
+      "sharp": {
+        "vorher": "0.35.4",
+        "nachher": "0.35.5"
+      }
+    }
+  },
+  {
+    "paket": "media-local",
+    "änderungen": {
+      "sharp": {
+        "vorher": "0.35.4",
+        "nachher": "0.35.5"
+      }
+    }
+  }
+]

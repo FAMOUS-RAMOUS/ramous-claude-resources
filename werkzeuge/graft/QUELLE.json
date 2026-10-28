@@ -1,0 +1,14 @@
+{
+  "graft_quelle": "https://github.com/trailhq/Trail-Code",
+  "graft_commit": "19865ff4274dc77d977b5519c920dc71e1b54aa3",
+  "graft_paket": "@nanonets/graft@0.28.0",
+  "graft_integrität": "sha512-zto3AJeK5qMdjhZrsrIr0Bq7agySU/aPIgBgokpPXleabiY9l83iHUETec9oeMiiBZM7YRxh4OSDMHlP4sSwBA==",
+  "codebase_quelle": "https://github.com/DeusData/codebase-memory-mcp",
+  "codebase_geprüfter_main": "dca2a44ef0c514384d297410fd05fd8335a4d5b5",
+  "codebase_paket": "v0.12.1",
+  "codebase_tag_commit": "a7158ac2f48ca646b4527341b76f930f2aeff87e",
+  "codebase_archive_sha256": "9bfcbe38414b47969a3e1d1c1999f5357409387c86fa3d24221b5458267660d2",
+  "signaturstatus": "SHA-256 gegen offiziellen Freigabewert identisch. Beiliegende Sigstore-Blob-Signatur vom vorhandenen gh-Werkzeug nicht unterstützt; nicht als validierte Provenienz ausgeben.",
+  "installation": "npm ci --ignore-scripts, versionsgebundenes Paket; Telemetrie durch eigenen Aufruf DO_NOT_TRACK=1 ausgeschaltet",
+  "funktionstest": "Eine eigene Python-Datei, 2 Funktionen korrekt mit Quellenzeilen gefunden"
+}

@@ -1,0 +1,37 @@
+{
+  "repo": "https://github.com/microsoft/SkillOpt",
+  "commit": "e2edfa9721ce41c98e50fa129da87cf1f53c2f7f",
+  "kern": "skillopt_sleep, reine Standardbibliothek; keine Pip-Installation",
+  "quellmanifest": "/Users/famous_ramous/Documents/Codex/2026-10-27/ki-systemoptimierung/work/Reel-Serie-2026-10-28/01/Quellmanifest.json",
+  "prüfung": "/Users/famous_ramous/Documents/Codex/2026-10-27/ki-systemoptimierung/work/Reel-Serie-2026-10-28/01/Befundentscheidungen.json",
+  "status": "Installiert; 249 automatisierte Hersteller-Tests (1 übersprungen) und synthetischer Mock-Lauf bestanden; noch keine echte Verbesserung im Alltag gemessen.",
+  "nachtlauf": {
+    "automation_id": "n-chtliche-skill-optimierung",
+    "status": "ACTIVE",
+    "lokale_zeit": "03:00 Systemzeitzone des ausführenden Macs, ohne feste deutsche Zeitzone",
+    "quelle": "/Users/famous_ramous/.codex/automations/n-chtliche-skill-optimierung/automation.toml",
+    "regel_zurückgelesen": true,
+    "quellprüfung": "Installierte App berechnet tägliche Uhrzeit über lokale Date-Komponenten (Funktion Pl). Reine Berechnung daraus unter drei Prozesszeitzonen geprüft, keine Systemzeit verändert.",
+    "berechnungsprobe": [
+      {
+        "zone": "Europe/Berlin",
+        "lokal": "Thu Oct 29 2026 03:00:00 GMT+0100 (Central European Standard Time)",
+        "utc": "2026-10-29T02:00:00.000Z",
+        "stunde": 3
+      },
+      {
+        "zone": "Asia/Bangkok",
+        "lokal": "Fri Oct 30 2026 03:00:00 GMT+0700 (Indochina Time)",
+        "utc": "2026-10-29T20:00:00.000Z",
+        "stunde": 3
+      },
+      {
+        "zone": "America/New_York",
+        "lokal": "Thu Oct 29 2026 03:00:00 GMT-0400 (Eastern Daylight Time)",
+        "utc": "2026-10-29T07:00:00.000Z",
+        "stunde": 3
+      }
+    ],
+    "grenzen": "Noch kein echter Nachtlauf und kein tatsächlicher Orts-/Systemzeitzonenwechsel des laufenden Schedulers getestet."
+  }
+}

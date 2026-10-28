@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/DeusData/codebase-memory-mcp",
+  "version": "0.12.1",
+  "commit": "a7158ac2f48ca646b4527341b76f930f2aeff87e",
+  "archiv_sha256": "9bfcbe38414b47969a3e1d1c1999f5357409387c86fa3d24221b5458267660d2",
+  "binary_sha256": "a36cfa1f5d10d8c4762501d63feef082711aae4704b9e8f9066db52779a8601e",
+  "prüfung": "Versionspaket gegen Hersteller-SHA geprüft; codesign --verify --strict erfolgreich. Begrenzter SkillSpector-Lauf 6/7 Dateien vollständig; OSV-PyPI-Metadatenprüfung nicht erreichbar, PyPI-Paket nicht installiert. Zwei größere Quellprüfläufe ohne Abschluss beendet. Native Binärprüfung durch SkillSpector nicht vollständig möglich.",
+  "entscheidung": "Lokale CLI-Installation für ausdrücklich beauftragte Code-Projekte; kein globaler Mehragenten-Installer, kein fremder Prozessneustart. Kein konkreter bösartiger Datenabfluss im eingerichteten lokalen Pfad bestätigt. Keine generelle Malwarefreiheit behauptet."
+}
