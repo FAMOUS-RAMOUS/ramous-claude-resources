@@ -1,6 +1,6 @@
 ---
 name: transkription
-description: Transkribiert Audio/Video-Dateien oder YouTube-URLs zu strukturiertem Transkript mit Zeitstempeln via faster-whisper large-v3 (über ~/.claude/scripts/transcribe.py, M4-Pro-optimiert). Trigger: "transkribiere", "erstelle Transkript", bei Audio/Video-Input als erster Schritt.
+description: "Transkribiert Audio/Video-Dateien oder YouTube-URLs zu strukturiertem Transkript mit Zeitstempeln via faster-whisper large-v3 (über ~/.Codex/scripts/transcribe.py, M4-Pro-optimiert). Trigger: \"transkribiere\", \"erstelle Transkript\", bei Audio/Video-Input als erster Schritt."
 ---
 
 Transkribiere den gegebenen Input zu einem strukturierten Transkript.
@@ -12,23 +12,27 @@ Transkribiere den gegebenen Input zu einem strukturierten Transkript.
 
 ## Ausführung (Audio/Video)
 
-Nutze IMMER das vorhandene Script `~/.claude/scripts/transcribe.py` – es ist M4-Pro-optimiert (float16, VAD-Filter, beam_size=5) und speichert das Roh-Transkript automatisch als `[Dateiname]_transkript.txt` neben der Audiodatei:
+Nutze IMMER das vorhandene Script `~/.Codex/scripts/transcribe.py` – es ist M4-Pro-optimiert (CPU-int8 auf Apple Silicon, VAD-Filter, beam_size=5) und speichert das Roh-Transkript automatisch als `[Dateiname]_transkript.txt` neben der Audiodatei:
 
 ```bash
 # Bei YouTube-URL – zuerst Audio herunterladen (eindeutiger Name, nichts überschreiben):
 yt-dlp -x --audio-format mp3 -o "/tmp/yt-%(id)s.%(ext)s" "[URL]"
 
 # Transkription (deutsch ist Standard, zweites Argument nur bei anderer Sprache):
-python3.11 ~/.claude/scripts/transcribe.py "[Pfad-zur-Audiodatei]" de
+python3.11 ~/.Codex/scripts/transcribe.py "[Pfad-zur-Audiodatei]" de
 ```
 
-Modell: `large-v3` via faster-whisper – so wie in `~/.claude/scripts/transcribe.py` definiert. Keinen eigenen Inline-Python-Code schreiben, das Script ist die eine Quelle der Wahrheit.
+Modell: `large-v3` via faster-whisper – so wie in `~/.Codex/scripts/transcribe.py` definiert. Keinen eigenen Inline-Python-Code schreiben, das Script ist die eine Quelle der Wahrheit.
 
 ## Fehlerbehandlung
 
 - **Datei nicht gefunden:** Pfad vor dem Start mit `ls` prüfen; bei Leerzeichen im Namen Anführungszeichen verwenden.
 - **yt-dlp schlägt fehl:** Fehlermeldung zeigen und prüfen, ob das Video verfügbar/regional gesperrt ist. Nicht stillschweigend weitermachen.
 - **Erster Lauf:** Das Modell lädt einmalig ~3 GB herunter – den User vorwarnen, dass es beim ersten Mal dauert.
+
+## Rohtranskript gegen die Quelle prüfen
+
+Vor einer inhaltlichen Auswertung Sprache und Zeitstempel mit der tatsächlichen Medienlänge vergleichen. Ragen Segmente deutlich über das Dateiende hinaus oder liefert Musik beziehungsweise Stille scheinbare Sätze, den betroffenen Text als unzuverlässig kennzeichnen und gezielt an der Aufnahme prüfen; Zeitstempel nicht bloß passend kürzen. Ein erfolgreich gespeichertes Rohtranskript belegt weder vollständige Spracherfassung noch richtige Produktnamen. Bei fehlender Sprache sichtbaren Text oder bereitgestellte Beschreibung getrennt als Quelle verwenden und keine gesprochenen Aussagen ergänzen.
 
 ## Output-Format
 
@@ -43,9 +47,7 @@ Modell: `large-v3` via faster-whisper – so wie in `~/.claude/scripts/transcrib
 [00:00] Erster Abschnitt...
 [01:23] Zweiter Abschnitt...
 
-## Volltext (für Weiterverarbeitung)
-[Transkript ohne Zeitstempel, sauber formatiert]
 ```
 
 Sprecherwechsel: faster-whisper erkennt Sprecher NICHT automatisch. Wenn der Inhalt klar ein Dialog ist (Interview), markiere Wechsel nach bestem Verständnis aus dem Kontext mit [SPRECHER A] / [SPRECHER B] und weise darauf hin, dass die Zuordnung inhaltlich abgeleitet ist.
-Füllwörter ("ähm", "äh") im Volltext entfernen, im Inhalt-Block belassen.
+Das vollständige Transkript einmal als Datei speichern. Im Chat Dateilink, Sprache, Dauer und auffällige Unsicherheiten nennen. Einen bereinigten Volltext nur auf Wunsch zusätzlich erstellen; für Zitate vom unveränderten Rohtranskript ausgehen und die betreffende Stelle gegen die Aufnahme prüfen. Nicht bestätigte ASR-Wörter nicht als wörtliches Sprecherzitat ausgeben.
