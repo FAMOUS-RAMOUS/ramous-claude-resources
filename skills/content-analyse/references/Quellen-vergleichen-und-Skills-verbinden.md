@@ -12,6 +12,8 @@ Für denselben Anwendungsfall aus jeder Quelle festhalten: konkrete Aussage mit 
 
 „Fünf Creator sagen es“ oder eine überzeugende Demonstration belegt keine Wirkung bei Rachid. Eine Auswahl kann nach Quellenqualität, Aufgabenpassung, Aufwand und technischen Voraussetzungen begründet werden, bleibt aber eine begründete Auswahl. „Funktioniert“ erst für den tatsächlich geprüften Umfang vergeben. Ohne vergleichbaren Test keinen Gewinner erfinden; andere Ansätze mit Begründung als Alternative oder ungeprüft im Index erhalten.
 
+Bei einem beauftragten Texttest können simulierte Leser mit wenig Zeit, Skepsis oder fehlendem Vorwissen konkrete Verständnisfragen sichtbar machen. Solche Aussagen ausdrücklich als KI-generierte Perspektiven kennzeichnen; sie sind keine echten Kundeninterviews, Abbruchraten oder Engagement-Prognosen. Beobachtete Textschwächen anhand der tatsächlichen Quellen korrigieren und Ausgangs-/Endfassung samt Änderungsgrund im vorhandenen Auftragsprotokoll erhalten. Keine feste Anzahl von Rollen oder Rückfragen erzwingen und Selbstkritik nicht als unabhängige Faktenprüfung behandeln.
+
 ## In bestehende Skills und eine nutzbare Kette überführen
 
 Den vorhandenen zuständigen Skill am tatsächlichen Verweisziel eng ergänzen. Einen neuen Skill nur bei einer eigenständigen wiederkehrenden Aufgabe ohne passenden Einstieg erstellen; nicht einen Skill pro Reel anlegen. Für Erstellung/Änderung den verfügbaren skill-creator und die geltende SkillSpector-Prüfung verwenden. Zuerst vollständige Prüfkopie samt Hilfsdateien außerhalb aktiver Skill-Verzeichnisse, dann prüfen und Befunde bewerten, anschließend den geprüften Stand mit Sicherung aktivieren und zurücklesen.
