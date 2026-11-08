@@ -28,6 +28,10 @@ Bestätigter Nutzerauftrag vom 28.10.2026: Die sechs Effekte aus dem Reel 463847
 
 Für die Varianten passende Texte/Inhalte aus dem beauftragten Material wählen. Fehlt für einen Effekt eine technische Voraussetzung, diese gezielt mit vorhandenen Werkzeugen prüfen; bei konkretem Änderungsauftrag einen begrenzten Entwurf umsetzen. Keine fremden Prompts oder Pakete allein wegen des Reels installieren. Neue Kosten, Konten oder Zugriffsrechte sind dadurch nicht freigegeben. Nicht funktionierende Varianten mit konkretem Grund als offen ausweisen; weder eine Textbeschreibung noch einen Standbildentwurf als fertiges Effektvideo ausgeben.
 
+## Neue Referenzen mit der bestehenden Auswahl vergleichen
+
+Neue Effekt-Reels zunächst den sechs vorhandenen Funktionen zuordnen. Ein anderer Name oder eine andere Farbe ist noch kein zusätzlicher Effekt. Neue technische Ansätze anhand derselben Quellszene mit der vorhandenen Variante vergleichen: Lesbarkeit, Maskenkanten, Überdeckungen, Farben, Ton und tatsächlicher Aufwand. Im bestehenden Prüfprotokoll Quelle, konkrete Umsetzung, beobachteten Unterschied und Auswahlgrund festhalten. Nur tatsächlich erprobte Varianten als wiederverwendbare Umsetzung mit Projekt-/Komponentenpfad und Voraussetzungen kennzeichnen; bisherige Vergleichsdateien erhalten. Eine schnellere oder attraktivere Demo belegt keine bessere Kundenwirkung.
+
 ## Ergebnis und Prüfung
 
 - Eindeutige deutsche Dateinamen pro Variante, Originalmaterial unverändert. Beispiele: `01-informationskarten.mp4`, `02-transparentes-diagramm.mp4` bis `06-farbkorrektur.mp4`; im eigenen Auftragsordner speichern und Kollisionen vermeiden.
@@ -35,11 +39,9 @@ Für die Varianten passende Texte/Inhalte aus dem beauftragten Material wählen.
 - Alle sechs Varianten mit Status „gerendert und angesehen“, „Entwurf“ oder „offen mit Grund“ nebeneinander berichten. Eine Empfehlung darf keine fehlenden Varianten verschweigen. Keine automatische Veröffentlichung.
 - Im vorhandenen aufgabenbezogenen Prüfprotokoll Quelle, Änderungen, tatsächlich gerenderte Ergebnisse und noch offene Punkte festhalten. Ein Techniktest beweist weder Alltagstauglichkeit noch Kundengewinnung.
 
-## Sonntag und spätere Ablage
+## Historischer Planungsstand und aktuelle Aufträge
 
-Content-Planung ist auf Rachids ausdrücklichen Auftrag vom 28.10.2026 ein eigener Punkt IM Interview am Sonntagvormittag, 01.11.2026: Themen, Plattformen, Formate, Frequenz, Produktionsablauf und Effekt-Einsatz gemeinsam klären. Umsetzung und Praxisprüfung folgen den Interviewentscheidungen.
-
-Am Sonntag, 01.11.2026, nach dem Interview und den dort beschlossenen Einstellungen die reale Nutzung gemeinsam prüfen. Eingangs-/Ausgangsstruktur für eigene Videos erst danach gemeinsam festlegen: „Eingang unbearbeitet“ und „Ausgang bearbeitet“. Dieser Auftrag erstellt noch keine neue dauerhafte Videoablage, Ordnerüberwachung oder Hintergrundautomation. Die Wiederverwendung erfolgt bei Videoaufträgen in Codex; keine automatische Übernahme in ChatGPT/Nizam oder bereits laufende andere Chats versprechen.
+Die Interview-/Ablageplanung für den 01.11.2026 ist ein historischer Stand vom 28.10.2026. Bei späteren Aufträgen den aktuellen führenden Projektstand und neuere Nutzerentscheidungen prüfen; aus dem alten Datum weder eine fortbestehende Sperre noch eine erledigte Freigabe ableiten. Konkret autorisierte Videoarbeit ausführen. Eine neue dauerhafte Eingangs-/Ausgangsablage oder Hintergrundroutine benötigt einen passenden Auftrag. Gespeicherte lokale Effekte sind keine automatische Übernahme in andere Produkte.
 
 ## Selbst-Check vor der Ausgabe
 
