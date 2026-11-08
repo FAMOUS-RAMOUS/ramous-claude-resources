@@ -67,6 +67,10 @@ Für Social Posts intern drei Hook-Ansätze prüfen und einen quellentreuen Eins
 
 Für LinkedIn gilt Rachids aktuelle Präferenz: standardmäßig keine Emojis oder Symbolaufzählungen. Ruhige Absätze, maximal drei passende Hashtags, auch null. Abschlussfrage und Verkaufs-CTA nur bei Nutzen für den konkreten Beitragszweck.
 
+## Fachbegriffe mit einem Anker erklären
+
+Wenn ein neuer Fachbegriff die Verständlichkeit eines beauftragten Textes erschwert, kann ein früher Vergleich mit etwas für die konkrete Zielgruppe Bekanntem helfen. Die gemeinsame Eigenschaft benennen und die Grenze des Vergleichs erhalten: Ein gespeicherter Ablauf ist beispielsweise wie ein Trainingsplan noch kein Nachweis seiner praktischen Ausführung. Vertrautheit anhand des bereitgestellten Kontexts begründen; keine Metapher in jeden kurzen Text zwingen. Eine redaktionelle Schreibprobe belegt weder besseres Leserverständnis noch mehr Reichweite oder Conversion.
+
 ## Emojis
 
 LinkedIn standardmäßig null. Auf anderen Kanälen optional und sparsam: bis zu 3, auf Instagram bis zu 4; null ist ebenfalls passend. Nur als Marker oder Wegweiser:
