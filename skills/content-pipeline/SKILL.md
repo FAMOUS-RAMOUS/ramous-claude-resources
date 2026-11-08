@@ -17,6 +17,12 @@ Führe die vollständige Content-Pipeline für eigene Inhalte durch.
 - „Mach Content aus diesem Text: [Text]"
 - „Erstelle Slides und Posts aus meiner Aufnahme"
 
+## Referenzquellen vor der Produktionskette zuordnen
+
+Bei fremden Videos oder Vorlagen zuerst den Auftrag unterscheiden: Soll deren Methode in unsere Arbeitsweise übernommen werden, direkt den Quellenvergleich in `content-analyse` verwenden. Die nachfolgende Produktionskette und ihre Formatfragen gelten für beauftragte Content-Erstellung. Bei mehreren Referenzen die passende gemeinsame Aussage samt Quellenstellen und Unterschieden übernehmen; fremde Beispiele bleiben fremde Beispiele.
+
+Bei einem beauftragten Formatvergleich dieselbe belegte Kernaussage und dieselben Ausgangsdaten verwenden. Vorab bestimmen, was geprüft wird: Quellenrichtigkeit, Verständlichkeit, Lesbarkeit oder Produktionsaufwand. Plattform-/Reichweitenwirkung benötigt eigene Ergebnisdaten. Den ausgewählten Ansatz mit Begründung im bestehenden Auftragsprotokoll festhalten, damit spätere Produktionen auf bestätigten Entscheidungen aufbauen.
+
 ## Input-Typen
 - **A – eigene Audio/Video-Datei:** lokaler Pfad (.mp3, .m4a, .mp4, .mov)
 - **B – YouTube-URL:** eigenes Video oder referenziertes Video
