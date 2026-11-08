@@ -7,6 +7,10 @@ description: "Verbessert vorhandene Skills anhand bestätigter wiederkehrender K
 
 Verwende die geprüfte lokale SkillOpt-Sleep-Einrichtung unter `/Users/famous_ramous/Documents/Codex/2026-10-27/ki-systemoptimierung/werkzeuge/skillopt/`. Quelle und festgelegter Commit stehen dort in `QUELLE.json`. Lade bei Bedarf die Herstelleranleitung `quelle/plugins/codex/skills/skillopt-sleep/SKILL.md` und `quelle/docs/sleep/README.md`.
 
+## Neue Quellen und echte Nutzungsfälle unterscheiden
+
+Ein neues Reel oder eine fremde Vorlage ist zunächst eine Quelle für einen möglichen Ablauf. Solche Quellen über `content-analyse` mit vorhandenen Anweisungen vergleichen; sie nicht als erfolgreiche Nutzeraufgabe oder unabhängiges Prüfergebnis in einen Optimierungslauf aufnehmen. Erst tatsächlich ausgeführte passende Aufgaben samt beobachteten Ergebnissen liefern Nutzungsfälle. Wenn mehrere Quellen dieselbe Idee empfehlen, entsteht dadurch kein zusätzlicher unabhängiger Erfolgsnachweis. Bereits bestätigte Verbesserungen wiederverwenden; widersprüchliche Vorschläge anhand ihres Anwendungsfalls und vorhandener Ergebnisse beurteilen.
+
 ## Ablauf
 
 1. Auftrag, zuständiges Projekt und vorhandenen Zielskill feststellen. Keine parallele Regelsammlung oder doppelten aktiven Skill anlegen. Bestätigte wiederkehrende Korrekturen und tatsächlich beobachtete Ergebnisse verwenden; Werbeversprechen und Einzelfälle sind kein allgemeiner Erfolgsnachweis.
