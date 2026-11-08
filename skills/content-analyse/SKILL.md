@@ -1,7 +1,11 @@
 ---
 name: content-analyse
-description: "Analysiert eigene Inhalte für Content oder erschließt bereitgestellte PDFs, Bücher und Fachmaterial zum Lernen, Anwenden und verständlichen Weitergeben. Bei „Lernen“, „/lernen“, Essenz, Lernzusammenfassung, Verständnisfragen oder Content-Analyse einsetzen."
+description: "Analysiert eigene Inhalte, erschließt Fachmaterial zum Lernen und überführt bereitgestellte Referenzvideos, Links oder Vorlagen durch Quellenvergleich in passende bestehende Skills und Abläufe. Bei „Lernen“, Content-Analyse oder „aus diesem Video Skills ableiten und umsetzen“ einsetzen."
 ---
+
+## Referenzvideos und Vorlagen in Arbeitsabläufe überführen
+
+Wenn Rachid aus bereitgestellten Videos, Links oder Vorlagen Skills beziehungsweise einen umgesetzten Arbeitsablauf verlangt, den [Ablauf Quellen vergleichen und Skills verbinden](references/Quellen-vergleichen-und-Skills-verbinden.md) verwenden. Dies ist eine Umsetzung im autorisierten Umfang, kein interaktives Lernquiz und kein automatischer Social-Media-Post. Vorhandene Auswertungen und passende aktive Skills zuerst abgleichen.
 
 ## Kurzaufruf „Lernen“
 
